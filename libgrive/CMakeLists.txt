@@ -43,6 +43,7 @@ include_directories(
 	${libgrive_SOURCE_DIR}/test
 	${GDBM_INCLUDE_DIR}
 	${YAJL_INCLUDE_DIR}
+	${JSONC_INCLUDE_DIR}
 	${OPT_INCS}
 )
 
