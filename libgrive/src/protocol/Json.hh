@@ -115,7 +115,9 @@ public :
 		}
 		return out ;
 	}
-	
+
+	void Remove( const std::string& key ) ;	
+
 	friend std::ostream& operator<<( std::ostream& os, const Json& json ) ;
 	void Write( DataStream *out ) const ;
 
